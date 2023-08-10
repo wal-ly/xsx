@@ -1,4 +1,10 @@
---  UI lib made by bungie#0001
+--[[
+  UI lib made by bungie#0001
+  
+  - Please do not use this without permission, I am working really hard on this UI to make it perfect and do not have a big 
+    problem with other people using it, please just make sure you message me and ask me before using.
+]]
+
 -- / Locals
 local Workspace = game:GetService("Workspace")
 local Player = game:GetService("Players").LocalPlayer
@@ -73,7 +79,7 @@ local drag = function(obj, latency)
 end
 
 local library = {
-    version = "1.0.0",
+    version = "2.0.2",
     title = title or "xsx " .. tostring(math.random(1,366)),
     fps = 0,
     rank = "private"
@@ -118,7 +124,9 @@ function library:Rejoin()
 end
 
 function library:Copy(input) -- only works with synapse
-        setclipboard(input)
+    if syn then
+        syn.write_clipboard(input)
+    end
 end
 
 function library:GetDay(type)
@@ -182,7 +190,9 @@ function library:GetYear(type)
 end
 
 function library:UnlockFps(new) -- syn only
+    if syn then
         setfpscap(new)
+    end
 end
 
 function library:Watermark(text)
@@ -770,7 +780,7 @@ function library:Introduction()
     xsx.BackgroundTransparency = 1.000
     xsx.Size = UDim2.new(0, 80, 0, 21)
     xsx.Font = Enum.Font.Code
-    xsx.Text = "made by walle"
+    xsx.Text = "made by wally / walle"
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
