@@ -748,7 +748,7 @@ function library:Introduction()
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
-    xsxLogo.Image = "http://www.roblox.com/asset/?id=9365068051"
+    xsxLogo.Image = ""
     xsxLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
     xsxLogo.ImageTransparency = 1
     
@@ -760,7 +760,7 @@ function library:Introduction()
     hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     hashLogo.Size = UDim2.new(0, 150, 0, 150)
     hashLogo.Visible = true
-    hashLogo.Image = "http://www.roblox.com/asset/?id=9365069861"
+    hashLogo.Image = ""
     hashLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
     hashLogo.ImageTransparency = 1
     
@@ -770,7 +770,7 @@ function library:Introduction()
     xsx.BackgroundTransparency = 1.000
     xsx.Size = UDim2.new(0, 80, 0, 21)
     xsx.Font = Enum.Font.Code
-    xsx.Text = "powered by xsx"
+    xsx.Text = "made by walle"
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
@@ -782,7 +782,7 @@ function library:Introduction()
     text.Position = UDim2.new(0.912751675, 0, 0, 0)
     text.Size = UDim2.new(0, 26, 0, 21)
     text.Font = Enum.Font.Code
-    text.Text = "hash"
+    text.Text = "lib by bungie"
     text.TextColor3 = Color3.fromRGB(124, 124, 124)
     text.TextSize = 10.000
     text.TextTransparency = 1
