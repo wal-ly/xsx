@@ -118,9 +118,7 @@ function library:Rejoin()
 end
 
 function library:Copy(input) -- only works with synapse
-    if syn then
-        syn.write_clipboard(input)
-    end
+        setclipboard(input)
 end
 
 function library:GetDay(type)
@@ -184,9 +182,7 @@ function library:GetYear(type)
 end
 
 function library:UnlockFps(new) -- syn only
-    if syn then
         setfpscap(new)
-    end
 end
 
 function library:Watermark(text)
