@@ -1,4 +1,5 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/wal-ly/xsx/main/lib.lua"))
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Consistt/Ui/main/UnLeaked"))()
+
 
 library.rank = "developer"
 local Wm = library:Watermark("xsx example | v" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
